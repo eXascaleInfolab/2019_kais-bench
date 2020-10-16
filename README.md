@@ -52,8 +52,10 @@ To exclude an algorithm from the benchmark
 - add an entry `IgnoreAlgorithms =` and specify the list of algorithm codes to exclude them
 - the line starting with `#IgnoreAlgorithms =` provides codes for all the algorithms in the benchmark
 
+___
 
-### Prerequisites and dependencies (macOS) -- Experimental
+
+## Prerequisites and dependencies (macOS) -- Experimental
 
 - The benchmark runs on macOS with a few caveats:
 - - TRMF algorithm is disabled (it doesn't work under octave on macOS).
@@ -72,7 +74,7 @@ To exclude an algorithm from the benchmark
 - Mono Runtime and Compiler: Install the package provided by Mono in https://www.mono-project.com/download/stable/
 - All other prerequisites will be installed using a build script.
 
-#### Build & tests
+### Build & tests
 
 - Restart the terminal window after all the dependencies are installed. Open it in the root folder of the repository.
 - Build all the algorithms and Testing Framework using a script in the root folder (takes up to 10-12 minutes depending which prerequisites are already installed in the system):
@@ -85,6 +87,6 @@ To exclude an algorithm from the benchmark
     $ mono TestingFramework.exe
 ```
 
-#### Customize datasets and algorithms
+### Customize datasets and algorithms
 
 The process is identical to Linux.
