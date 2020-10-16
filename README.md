@@ -1,12 +1,8 @@
 # CDRec_benchmark
 
-## Repository structure
-- Algorithms : CDRec, STMVL, TRMF, TKCM, SPIRIT, TeNMF, GROUSE, SSA, M-RNN, DynaMMo.
-- Datasets : different datasets and time series from different sources.
-___
+## Installation (Linux)
 
-## Prerequisites (Linux)
-
+### Prerequisites 
 - Ubuntu 16 or Ubuntu 18 (including Ubuntu derivatives, e.g., Xubuntu) or the same distribution under WSL.
 - Clone this repository.
 - Mono: Install mono from https://www.mono-project.com/download/stable/ (takes few minutes).
@@ -14,7 +10,7 @@ ___
 ___
 
 
-## Build
+### Build
 
 - Build the Testing Framework using the installation script located in the root folder (takes several minutes):
 ```bash
@@ -22,7 +18,7 @@ ___
 ```
 ___
 
-## Execution
+### Execution
 
 
 ```bash
@@ -36,16 +32,16 @@ ___
 
 ___
 
-## Parametrized execution
+### Parametrized execution
 
-### Customize datasets
+###3 Customize datasets
 
 To add a dataset to the benchmark
 - import the file to `TestingFramework/bin/Debug/data/{name}/{name}_normal.txt`
 - - Requirements: >= 10 columns, >= 1'000 rows, column separator - empty space, row separator - newline
 - add `{name}` to the list of datasets in `TestingFramework/config.cfg`
 
-### Customize algorithms
+#### Customize algorithms
 
 To exclude an algorithm from the benchmark
 - open the file `TestingFramework/config.cfg`
@@ -54,8 +50,9 @@ To exclude an algorithm from the benchmark
 
 ___
 
+## Installation (macOS) -- Experimental
 
-## Prerequisites and dependencies (macOS) -- Experimental
+### Prerequisites and dependencies 
 
 - The benchmark runs on macOS with a few caveats:
 - - TRMF algorithm is disabled (it doesn't work under octave on macOS).
