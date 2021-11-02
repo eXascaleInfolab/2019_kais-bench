@@ -9,7 +9,7 @@
 - **Scenarios**: The benchmark will execute the full set of 15 recovery scenarios and report the error using RMSE, MSE and MAE. 
 A detailed description of the recovery scenarios can be found [here](https://github.com/eXascaleInfolab/bench-vldb20/blob/master/TestingFramework/README.md).
 
-[**Prerequisites**](#prerequisites) | [**Build**](#build) | [**Execution**](#execution) | [**Citation**](#citation)
+[**Prerequisites**](#prerequisites) | [**Build**](#build) | [**Execution**](#execution) | [**Parameterization**](#parameterization) | [**Citation**](#citation)
 
 
 ___
@@ -43,16 +43,16 @@ ___
 
 ___
 
-### Parametrized execution
+## Parameterization 
 
-### Customize datasets
+### Dataset Customization
 
 To add a dataset to the benchmark
 - import the file to `TestingFramework/bin/Debug/data/{name}/{name}_normal.txt`
 - - Requirements: >= 10 columns, >= 1'000 rows, column separator - empty space, row separator - newline
 - add `{name}` to the list of datasets in `TestingFramework/config.cfg`
 
-#### Customize algorithms
+### Algorithm Customization
 
 To exclude an algorithm from the benchmark
 - open the file `TestingFramework/config.cfg`
