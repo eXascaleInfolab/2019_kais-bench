@@ -4,7 +4,7 @@
 
 
 - **Paper**: Mourad Khayati, Philippe Cudré-Mauroux, and Michael H. Böhlen: [Scalable Recovery of Missing Blocks in Time Series with High and Low Cross-Correlations](https://rdcu.be/b32bv). KAIS 2020.
-- **Algorithms**: The benchmark evaluates all the algorithms mentioned in the paper: CDRec, GROUSE, MRNN, SSA, STMVL, TKCM and TRMF. To enable/disable any algorithm, please refer to the *Algorithms customization* section below.
+- **Algorithms**: The benchmark evaluates all the algorithms mentioned in the paper: CDRec, GROUSE, MRNN, SSA, STMVL, TKCM, and TRMF. To enable/disable any algorithm, please refer to the *Algorithms customization* section below.
 - **Datasets**: The benchmark evaluates all the datasets used in the paper: gas (drfit6), gas (drfit10), baseball, meteo, tempretaure, and BAFU. To enable/disable any dataset, please refer to the *Datasets customization* section below.
 - **Scenarios**: The benchmark will execute the full set of 11 recovery scenarios and report the error using RMSE, MSE and MAE. 
 A detailed description of the recovery scenarios can be found [here](https://github.com/eXascaleInfolab/bench-vldb20/blob/master/TestingFramework/README.md).
