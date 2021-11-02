@@ -34,7 +34,7 @@ ___
 
 ### Parametrized execution
 
-###3 Customize datasets
+### Customize datasets
 
 To add a dataset to the benchmark
 - import the file to `TestingFramework/bin/Debug/data/{name}/{name}_normal.txt`
@@ -48,6 +48,8 @@ To exclude an algorithm from the benchmark
 - add an entry `IgnoreAlgorithms =` and specify the list of algorithm codes to exclude them
 - the line starting with `#IgnoreAlgorithms =` provides codes for all the algorithms in the benchmark
 
+
+<!---
 ___
 
 ## Installation (macOS) -- Experimental
@@ -87,3 +89,5 @@ ___
 ### Customize datasets and algorithms
 
 The process is identical to Linux.
+-->
+
